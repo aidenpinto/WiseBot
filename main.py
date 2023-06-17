@@ -30,15 +30,17 @@ async def on_message(message):
     # Checks if the bot was mentioned in the message (using @)
     if client.user in message.mentions:
 
-        # Uses GPT-3.5 Turbo to generate a response to the message
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                # Define the bot's personality in the line below
-                {"role": "system", "content": "You are a helpful assistant."},   
-                {"role": "user", "content": message.content}
+        async with message.channel.typing():
+
+        # Use the OpenAI API to generate a response to the message
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},   
+                    {"role": "user", "content": message.content}
             ]
         )
+            
         # Sends the response as a message from the bot
         await message.channel.send(response.choices[0].message.content)
 
