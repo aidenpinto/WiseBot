@@ -10,6 +10,7 @@
 <img width="907" alt="Screenshot 2023-06-20 at 9 08 21 AM" src="https://github.com/aidenpinto14/WiseBot/assets/119895317/ac2f8d54-25f5-4f3c-b3a1-86864949e6d5">
 
 
+ 
  3. Create your OpenAI account if you don't have one already, and generate an API Token. You can also follow this tutorial: https://www.youtube.com/watch?v=nafDyRsVnXU
  4. Make sure to note this API Key down somewhere as well! My advice is to make a .txt file or a document on your computer with the Discord Bot Token and the OpenAI   Key.
  5. Download the code!
