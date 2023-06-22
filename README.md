@@ -5,7 +5,7 @@
 
  **Setup Guide**
 
- 1. Create a Discord bot profile on the Discord Website! Follow this tutorial: https://www.youtube.com/watch?v=ibtXXoMxaho
+ 1. Create a Discord bot profile on the Discord Website! Follow this tutorial [here!](https://www.youtube.com/watch?v=ibtXXoMxaho)
  2. Note down the bot's token somewhere, and make sure that the bot is given the permissions listed here:
 <img width="907" alt="Screenshot 2023-06-20 at 9 08 21 AM" src="https://github.com/aidenpinto14/WiseBot/assets/119895317/ac2f8d54-25f5-4f3c-b3a1-86864949e6d5">
 
